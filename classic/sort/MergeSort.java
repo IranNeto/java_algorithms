@@ -3,6 +3,8 @@ package classic.sort;
 import java.util.Arrays;
 
 /*
+
+    Check out MIT lesson: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/lecture-3-insertion-sort-merge-sort/
     Divide and Conquer algorithm which consists in divide the array until len(sub_arr) = 1 and then start to compare and order
     O(1) for divide the array + O(n/2) + O(n/2) for recursion in each half + O(n) for merge
     T(n) = c1 + 2*T(n/2) + c2*n
